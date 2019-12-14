@@ -1,0 +1,104 @@
+/*
+* @Author: lenovo
+* @Date:   2019-12-10 19:32:18
+* @Last Modified by:   lenovo
+* @Last Modified time: 2019-12-13 17:25:42
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.box0{
+	width: 1400px;
+	height: 460px;
+	margin: 100px auto;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
+.img{
+	float: left;
+	margin-top: 6px;
+}
+#tips{
+	position: absolute;
+	right: -460px;
+	color: red;
+	margin-top: 2px;
+}
+.box1{
+	height: 30px;
+	background: #BEBEBE;
+}
+.box2{
+	width: 1000px;
+	height: 30px;
+	margin: 0 200px;
+	overflow: hidden;
+	position: absolute;
+}
+.box4{
+	width: 980px;
+	height: 30px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.box3{
+	width: 1200px;
+	height: 397px;
+	margin: 15px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box3>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #ccc;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
+.number{
+	text-align: center;
+	margin: 0 auto;
+}
